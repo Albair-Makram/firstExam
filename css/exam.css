@@ -1,0 +1,354 @@
+.back-1 {
+    background-image: url(../images/slideshow-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.back-2 {
+    background-image: url(../images/slideshow-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.back-3 {
+    background-image: url(../images/slideshow-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    width: 33%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.prev-caro {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: auto;
+    padding: 15px;
+    /* border: solid 1px white; */
+}
+.next-caro {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: auto;
+    padding: 15px;
+}
+.carousel-control-next {
+    justify-content: flex-start !important;
+}
+@media screen and (max-width: 992px) {
+    .collapse-navbar-collapse {
+        justify-content: flex-start !important;
+    }
+}    
+.setting {
+    width: 39px;
+    height: 39px;
+    position: fixed;
+    z-index: 5;
+    left: 0px;
+    top: 20%;
+    background-color: #1f2528;
+    border-radius: 0px 2px 2px 0px;
+    transition: 0.2s;
+}
+.setting:hover {
+    background-color: #434343;
+    
+}
+nav > a {
+    padding: 0 -20px;
+}
+.nav-home {
+    color: #f25454 !important;
+}
+.navbar .navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent !important;
+    font-family: "Poppins", sans-serif
+
+}
+nav li a{
+    transition: .15s color;
+}
+nav li a:hover {
+    color: #f25454 !important;
+}
+li a .fab {
+    color: #282828;
+    transition: .015s color;
+}
+li a .fab:hover {
+    color: #f25454 !important;
+}
+#about h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: rgba(210, 210, 210, 0.6);
+    font-family: "Poppins", sans-serif;
+
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about h2::after {
+    content: "About Us";
+    /* background-color: tomato; */
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    color: #282828;
+    font-family: "Poppins", sans-serif;
+    width: 200px;
+    left: 477px;
+    top: 40px
+}
+/* @media screen and (max-width: 1200px) and (min-width: 500px) {
+    #about h2::after {
+        content: "About Us";
+        /* background-color: tomato; */
+        /* position: absolute;
+        font-size: 40px;
+        font-weight: 700;
+        color: #282828;
+        font-family: "Poppins", sans-serif;
+        width: 200px;
+        left: 477px;
+        top: 40px
+    }
+    
+} */
+#about .about-title::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 50px;
+    height: .5px;
+    top: 97px;
+
+}
+#about .about-title ::before {
+    transition: .25s all;
+} 
+#about .about-title:hover ::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 70px;
+    height: .5px;
+    top: 97px;
+}
+#about > p {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    width: 70%;
+    font-family: "Poppins", sans-serif;
+}
+.progress-bar {
+    height: 100% !important;
+}
+.progress {
+    height: 2% !important;
+}
+.progress-bar::after {
+    content: "80%";
+    font-size: 16px;
+    color:  #666;
+    position: absolute;
+    left: 340px;
+    top: 25px;
+}
+.about-item {
+    font-family: "Open Sans", sans-serif;
+}
+#team h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: rgba(210, 210, 210, 0.6);
+    font-family: "Poppins", sans-serif;
+
+}
+#team h2::after {
+    content: "Our Team";
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    color: #282828;
+    font-family: "Poppins", sans-serif;
+    width: 220px;
+    left: 455px;
+    top: 40px
+}
+#team .team-title::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 50px;
+    height: .5px;
+    top: 97px;
+}
+#team .team-title ::before {
+    transition: .25s all;
+}
+#team .team-title:hover ::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 70px;
+    height: .5px;
+    top: 97px;
+}
+#team > p {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    width: 70%;
+    font-family: "Poppins", sans-serif;
+}
+.card {
+    border: none !important;
+}
+.item-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    top: 10px;
+    left: 0;
+    opacity: 0;
+    transition: .3s opacity;
+    transition: .5s transform;
+}
+#team .member a {
+    color: #fff;
+}
+#team .member {
+    overflow: hidden;
+}
+#team .member img {
+    transition: transform .5s;
+}
+#team .member:hover .item-layer{
+    opacity: 1;
+    transform: translatey(-10px);
+}
+#team .member:hover img{
+    transform: scale(1.1,1.1);
+}
+#team .card h5 {
+    transition: .3s color;
+}
+#team .card .card-body h5 {
+    transition: .3s color;
+}
+#team .card:hover .card-body h5 {
+    color: rgba(242, 84, 84, 0.85);
+}
+#team h3 {
+    line-height: 50px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+#team button {
+    color: #fff;
+    background-color: #f25454;
+    border-radius: 3px;
+    padding: 18px 30px;
+    line-height: 1;
+    font-weight: 700;
+    border-width: 0;
+    transition: .1s all;
+}
+#team .ideas {
+    margin-top: 75px;
+
+}
+#team button:hover {
+    background-color: #f38383;
+}
+#services h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: rgba(210, 210, 210, 0.6);
+    font-family: "Poppins", sans-serif;
+}
+#services h2::after {
+    content: "Services";
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    color: #282828;
+    font-family: "Poppins", sans-serif;
+    width: 220px;
+    left: 470px;
+    top: 40px
+}
+#services .services-title::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 50px;
+    height: .5px;
+    top: 97px;
+}
+#services .services-title ::before {
+    transition: .25s all;
+}
+#services .services-title:hover ::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    height: .5px;
+    top: 97px;
+    width: 70px;
+}
+#services > p {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    width: 70%;
+    font-family: "Poppins", sans-serif;
+}
+.unit .unit-title {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 500;
+}
+.unit p {
+    color: #666;
+    margin: 0 0 10px;
+    padding-left: 40px;
+}
+.unit a {
+    color: #282828;
+}
+.unit i {
+    color: #f25454;
+}
+#services .unit a {
+    transition: .25s all;
+}
+#services .unit a:hover {
+    color: #f25454;
+    text-decoration: none !important;
+}
